@@ -1,0 +1,13 @@
+{
+  "name": "watsonx-agent",
+  "version": "1.0.0",
+  "description": "A sophisticated AI chatbot built from scratch using IBM Watsonx AI (Granite models) and Model Context Protocol (MCP) for tool integration. Features intelligent LLM-based tool selection, multiple free API integrations, and a modern, responsive Streamlit UI.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}

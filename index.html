@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    window.wxOConfiguration = {
+      orchestrationID: "20260203-1012-1526-609f-24599eec7e32_20260203-1015-1090-6098-a4d710d3afa0",
+      hostURL: "https://ap-south-1.dl.watson-orchestrate.ibm.com",
+      rootElementID: "root",
+      chatOptions: {
+          agentId: "3de0b070-df88-4b20-aa3d-c30c8145b008", 
+      }
+    };
+    setTimeout(function () {
+      const script = document.createElement('script');
+      script.src = `${window.wxOConfiguration.hostURL}/wxochat/wxoLoader.js?embed=true`;
+      script.addEventListener('load', function () {
+          wxoLoader.init();
+      });
+      document.head.appendChild(script);
+    }, 0);                     
+  </script>
+</html>

@@ -1,0 +1,5 @@
+ibm-watsonx-ai
+python-dotenv
+requests
+streamlit
+modelcontextprotocol
